@@ -1,0 +1,28 @@
+{
+	"ID": "920ee611475961893d3fb9b5089d0375",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6915,
+	"Data": [
+		{
+			"ID": "920ee611475961893d3fb9b5089d0375",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "a28e548e41b929ee3e5a4f8e1de4b106",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "920ee611475961893d3fb9b5089d0375",
+			"Name": "Camera",
+			"StaticFlags": 0
+		}
+	]
+}
