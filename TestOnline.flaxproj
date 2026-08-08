@@ -1,4 +1,4 @@
-{
+﻿{
 	"Name": "TestOnline",
 	"Version": "1.0",
 	"Company": "Flax",
@@ -8,8 +8,15 @@
 	"References": [
 		{
 			"Name": "$(EnginePath)/Flax.flaxproj"
+		},
+		{
+			"Name": "$(ProjectPath)/Plugins/OnlinePlatformSteam/OnlinePlatformSteam.flaxproj"
+		},
+		{
+			"Name": "$(ProjectPath)/Plugins/OnlinePlatformXboxLive/OnlinePlatformXboxLive.flaxproj"
 		}
 	],
+	"DefaultScene": null,
 	"DefaultSceneSpawn": {
 		"Position": {
 			"X": 0.0,
@@ -22,5 +29,6 @@
 			"Z": 1.0
 		}
 	},
-	"MinEngineVersion": "0.0.6194"
+	"MinEngineVersion": "0.0.6194",
+	"EngineNickname": null
 }

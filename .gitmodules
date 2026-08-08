@@ -1,0 +1,6 @@
+[submodule "Plugins/OnlinePlatformSteam"]
+	path = Plugins/OnlinePlatformSteam
+	url = https://github.com/FlaxEngine/OnlinePlatformSteam.git
+[submodule "Plugins/OnlinePlatformXboxLive"]
+	path = Plugins/OnlinePlatformXboxLive
+	url = https://github.com/FlaxEngine/OnlinePlatformXboxLive.git
