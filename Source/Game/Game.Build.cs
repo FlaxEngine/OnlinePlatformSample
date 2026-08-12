@@ -24,21 +24,28 @@ public class Game : GameModule
         // To add C++ define use: options.PublicDefinitions.Add("COMPILE_WITH_FLAX");
         // To learn more see scripting documentation.
 
+        // Reference platform-specific Online impl (see TestOnlineScript which creates them)
         switch (options.Platform.Target)
         {
         case TargetPlatform.Windows:
-            options.PublicDependencies.Add("OnlinePlatformSteam");
+        case TargetPlatform.Linux:
+        case TargetPlatform.Mac:
+            options.PrivateDependencies.Add("OnlinePlatformSteam");
             break;
         case TargetPlatform.XboxOne:
         case TargetPlatform.XboxScarlett:
-            options.PublicDependencies.Add("OnlinePlatformXboxLive");
-            break;
-        case TargetPlatform.PS4:
-            options.PublicDependencies.Add("OnlinePlatformPS4");
+            options.PrivateDependencies.Add("OnlinePlatformXboxLive");
             break;
         case TargetPlatform.Switch:
-            options.PublicDependencies.Add("OnlinePlatformSwitch");
+            options.PrivateDependencies.Add("OnlinePlatformSwitch");
             break;
+        case TargetPlatform.PS4:
+            options.PrivateDependencies.Add("OnlinePlatformPS4");
+            break;
+        case TargetPlatform.PS5:
+            options.PrivateDependencies.Add("OnlinePlatformPS5");
+            break;
+
         }
     }
 }
