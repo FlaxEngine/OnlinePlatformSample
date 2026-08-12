@@ -1,5 +1,5 @@
-﻿{
-	"Name": "TestOnline",
+{
+	"Name": "Online Platform Sample",
 	"Version": "1.0",
 	"Company": "Flax",
 	"Copyright": "",
@@ -16,7 +16,7 @@
 			"Name": "$(ProjectPath)/Plugins/OnlinePlatformXboxLive/OnlinePlatformXboxLive.flaxproj"
 		}
 	],
-	"DefaultScene": null,
+	"DefaultScene": "920ee611475961893d3fb9b5089d0375",
 	"DefaultSceneSpawn": {
 		"Position": {
 			"X": 0.0,
@@ -29,6 +29,6 @@
 			"Z": 1.0
 		}
 	},
-	"MinEngineVersion": "0.0.6194",
+	"MinEngineVersion": "1.13",
 	"EngineNickname": null
 }
