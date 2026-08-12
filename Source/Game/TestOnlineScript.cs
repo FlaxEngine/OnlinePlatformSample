@@ -103,7 +103,7 @@ public class TestOnlineScript : Script
             }
         }
         _sb.AppendLine($"User: {user.Name}, state: {user.PresenceState}");
-        if (!_online.GetUserAvarar(user, out var avatar))
+        if (!_online.GetUserAvatar(user, out var avatar))
         {
             _avatars.Add(avatar);
             AvatarImage.Control.Brush = new TextureBrush(avatar);
@@ -136,7 +136,7 @@ public class TestOnlineScript : Script
                 };
                 if (!string.IsNullOrEmpty(friend.PresenceStatus))
                     friendItem.Text += $", {friend.PresenceStatus}";
-                if (!_online.GetUserAvarar(friend, out avatar))
+                if (!_online.GetUserAvatar(friend, out avatar))
                 {
                     _avatars.Add(avatar);
                     var friendImage = new Image
