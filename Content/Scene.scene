@@ -1,7 +1,7 @@
 {
 	"ID": "920ee611475961893d3fb9b5089d0375",
 	"TypeName": "FlaxEngine.SceneAsset",
-	"EngineBuild": 7008,
+	"EngineBuild": 7012,
 	"Data": [
 		{
 			"ID": "920ee611475961893d3fb9b5089d0375",
@@ -178,7 +178,7 @@
 			"StaticFlags": 0,
 			"Control": "FlaxEngine.GUI.Label",
 			"Data": {
-	"Text": "Test Label",
+	"Text": "",
 	"CaseOption": 0,
 	"Bold": false,
 	"Italic": false,
@@ -538,6 +538,7 @@
 	},
 	"AutoSize": true,
 	"ControlChildSize": true,
+	"ExpandChildSize": false,
 	"Margin": {
 		"Left": 2.0,
 		"Right": 2.0,
